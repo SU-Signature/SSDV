@@ -1,0 +1,43 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: SSDV
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Semih
+    family-names: Gülüm
+    email: semih.gulum@sabanciuniv.edu
+  - given-names: Seçilay
+    family-names: Kutal
+    email: secilay.kutal@sabanciuniv.edu
+  - given-names: Erchan
+    family-names: Aptoula
+    email: erchan.aptoula@sabanciuniv.edu
+  - given-names: Berrin
+    family-names: Yanıkoğlu
+    email: berrin@sabanciuniv.edu
+abstract: >-
+  Signatures have long been used as a basic means of
+  authentication. With the increase in digitization and
+  document forgery, signature verification has gained
+  greater importance than ever before. This study introduces
+  the SSDV (Sabanci Signature Detection and Verification)
+  dataset, developed for signature detection and
+  verification. SSDV provides a rich dataset that simulates
+  real-world scenarios for signature verification and
+  detection. This dataset, expanded with various types of
+  noise and forged signature data, is designed to test and
+  improve the robustness of signature verification systems.
+  The scope of the dataset reflects the challenges
+  encountered in current research and applications,
+  providing a valuable resource for developing new models
+  and algorithms in this field.
+keywords:
+  - >-
+    signature detection, signature verification, document
+    analysis, generative artificial intelligence
+license: MIT
