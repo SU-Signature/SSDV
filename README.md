@@ -26,7 +26,7 @@ Our goal is to support research on:
 ## 📁 Dataset Structure
 
 The dataset is structured as follows:
-
+```bash
 SSDV
 ├───  README.md # Dataset description and citation
 └─── dataset/
@@ -36,7 +36,7 @@ SSDV
     └─── labels/ # XML/JSON annotations for signature bounding boxes
         ├─── test/ # Test partition
         └─── train/ # Train partition
-
+```
 
 > 📌 If you are interested in obtaining the dataset, please refer to the [License & Access](#lock-license--access) section.
 
