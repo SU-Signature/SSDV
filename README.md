@@ -27,11 +27,15 @@ Our goal is to support research on:
 
 The dataset is structured as follows:
 
-SSDV/
-│
-├── images/ # Scanned document images
-├── annotations/ # XML/JSON annotations for signature bounding boxes
-└── README.md # Dataset description and citation
+SSDV
+├───  README.md # Dataset description and citation
+└─── dataset/
+    ├─── images/ # Scanned document images
+    │   ├─── test/ # Test partition
+    │   └─── train/ # Train partition
+    └─── labels/ # XML/JSON annotations for signature bounding boxes
+        ├─── test/ # Test partition
+        └─── train/ # Train partition
 
 
 > 📌 If you are interested in obtaining the dataset, please refer to the [License & Access](#lock-license--access) section.
