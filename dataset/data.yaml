@@ -1,0 +1,6 @@
+train: /home/semih.gulum/datasets/synthetic_docu_for_yolo/images/train
+val: /home/semih.gulum/datasets/synthetic_docu_for_yolo/images/test
+test: ../test/images
+
+nc: 1
+names: ['signature']
